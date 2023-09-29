@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Red from "./Red";
 import Blue from "./Blue";
 import Home from "./Home";
+import Black from "./Black";
 
 const MainContainer = () => {
     return (
@@ -9,6 +10,7 @@ const MainContainer = () => {
           <Routes>
             <Route path="/blue" element={<Blue />} />
             <Route path="/red" element={<Red />} />
+            <Route path="/black" element={<Black />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </div>

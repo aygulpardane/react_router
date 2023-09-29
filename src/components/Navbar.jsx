@@ -5,6 +5,7 @@ const Navbar = () => {
         <div id="navbar">
           <Link to="/blue">BLUE</Link>
           <Link to="/red">RED</Link>
+          <Link to="/black">BLACK</Link>
           <Link to="/">HOME</Link>
         </div>
     )
