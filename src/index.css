@@ -35,6 +35,13 @@ body > div {
   justify-content: center;
 }
 
+.footer {
+  background-color: #e5ea97;
+  color: rgb(33, 4, 4);
+  padding: 2em;
+  justify-content: space-evenly;
+}
+
 .red {
   background-color: #f22121;
   color: white;
